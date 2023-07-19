@@ -1,0 +1,185 @@
+.widgets {
+    position: sticky;
+    top: 80px;
+    /*flex: 0.27;*/
+    flex: 0 0 350px;
+    height: fit-content;
+}
+
+.widgets__top {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.widgets__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.widgets__header > h2 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.widgets__header > .MuiSvgIcon-root {
+    font-size: 20px;
+}
+
+.widgets__header > .MuiSvgIcon-root:hover {
+    cursor: pointer;
+}
+
+.widgets__article {
+    display: flex;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: -10px;
+    padding-left: 20px;
+}
+
+.widgets__article:hover{
+    background-color: whitesmoke;
+}
+
+.widgets__articleLeft {
+    color: gray;
+    margin-right: 6px;
+}
+
+.widgets__articleLeft > .MuiSvgIcon-root {
+    font-size: 10px;
+}
+
+.widgets__articleRight {
+    flex: 1;
+}
+
+.widgets__articleRight > h4 {
+    font-size: 15px;
+    font-weight: 550;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.widgets__articleRight > p {
+    font-size: 12px;
+    color: gray;
+    padding-left: 6px;
+}
+
+.widgets__top > button {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 24px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: grey;
+    border-radius: 4px;
+    padding: 3px;
+} 
+
+.showBtn {
+    display: flex;
+    align-items: center;
+}
+
+.widgets__top > button:hover {
+    background-color: whitesmoke;
+}
+
+.widgets__middle {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+
+.widgets__adHeader {
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.widgets__adHeader > p {
+    font-size: 13.5px;
+    padding-right: 5px;
+}
+
+.widgets__adHeader > .MuiSvgIcon-root {
+    font-size: 19px;
+}
+
+.widgets__adHeader > .MuiSvgIcon-root:hover {
+    cursor: pointer;
+}
+
+.widgets__adBody {
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+}
+
+.widgets__adBody > p {
+    color: gray;
+    font-size: 13.5px;
+    padding-bottom: 10px;
+}
+
+.widgets__adBody > h3 {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 13px;
+}
+
+.widgets__adBody > button {
+    background-color: white;
+    color: #0a66c2;
+    border: 1px solid #0a66c2;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.widgets__adBody > button:hover {
+    background-color: #d5e7f9;
+    border: 2.5px solid #0a66c2;
+}
+
+.widgets__adImg {
+    display: flex;
+    justify-content: center;
+}
+.widgets__adImg > img{
+    width: 75px;
+    height: 75px;
+}
+
+
+.widgets__avatar {
+    width: 75px !important;
+    height: 75px !important;
+    font-size: 30px !important;
+}
+

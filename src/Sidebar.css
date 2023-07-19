@@ -1,0 +1,282 @@
+.sidebar {
+    top: 80px;
+    position: sticky; 
+    /*flex: 0.23; */
+    flex: 0 0 250px;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+}
+
+
+.sidebar__recent {
+    position: sticky;
+}
+
+.sidebar__premium > .MuiSvgIcon-root {
+    font-size: 20px;
+}
+
+.sidebar__items > .MuiSvgIcon-root {
+    font-size: 20px;
+    color: gray;
+}
+
+.sidebar__article > .MuiSvgIcon-root {
+    font-size: 17px;
+    color: gray;
+}
+
+.sidebar__avatar {
+    margin-bottom: 20px;
+    width: 75px !important;
+    height: 75px !important;
+
+}
+
+.sidebar__background > h4 {
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sidebar__background > h2 {
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.sidebar__background > h2:hover {
+    text-decoration: underline;
+}
+
+.sidebar__background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+.sidebar__background > img {
+    margin-bottom: -45px;
+    width: 100%;
+    height: 64px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.sidebar__stat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar__viewProf {
+    padding-bottom: 5px;
+}
+
+.sidebar__stat > p {
+    color: gray;
+    font-size: 13.5px;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.sidebar__stats {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar__statNumber {
+    font-weight: bold;
+    color: #0a66c2 !important;
+}
+
+.sidebar__text {
+    color: black;
+    font-size: 13.5px;
+    font-weight: 600;
+    display: flex;
+    padding-left: 15px;
+}
+
+.sidebar__recent {
+    text-align: left;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 7px;
+}
+
+.sidebar__recentItem {
+    display: flex;
+    font-size: 13.5px;
+    color: gray;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.sidebar__recent > p {
+    font-size: 13.5px;
+    padding-bottom: 10px;
+    padding: 15px;
+} 
+
+.sidebar__blueLinks {
+    padding-top: 24px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.sidebar__blueLinks > p {
+    color: #0a66c2;
+    font-size: 13.5px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+
+
+.sidebar__events {
+    justify-content: space-between;
+    display: flex;
+    color: #0a66c2;
+    font-size: 13.5px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.sidebar__hashtag {
+    color: #0a66c2;
+    font-size: 13.5px;
+    font-weight: 600;
+}
+
+
+.sidebar__events > .MuiSvgIcon-root {
+    font-size: 23px;
+    color: gray;
+}
+
+.sidebar__recentItem:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+    color: black;
+}
+
+.sidebar__article {
+    margin-right: 8px;
+}
+
+.sidebar__discover {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.sidebar__tools {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+}
+
+.sidebar__tools > p {
+    color: gray;
+    font-size: 13.5px;
+    font-weight: 100px;
+    display: flex;
+}
+
+.sidebar__premium {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__premium > p {
+    display: flex;
+    color: black;
+    font-size: 13.5px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.sidebar__premium > .MuiSvgIcon-root {
+    color: #FFD700;
+    padding-right: 3px;
+}
+
+.sidebar__items {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__items > p {
+    color: black;
+    font-size: 13.5px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.sidebar__blueLinks > p:hover {
+    text-decoration: underline;
+}
+
+.sidebar__blueLinks > h4:hover {
+    text-decoration: underline;
+}
+
+.sidebar__events > p:hover {
+    text-decoration: underline;
+} 
+
+.sidebar__stat:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.sidebar__statText:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.sidebar__tools:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.sidebar__items:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.sidebar__discover:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}

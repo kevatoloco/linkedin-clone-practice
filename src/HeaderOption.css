@@ -1,0 +1,40 @@
+.headerOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+    color: gray;
+}
+
+.headerOption__title {
+    font-size: 13.5px;
+    font-weight: 400;
+    display: flex;
+}
+
+
+.headerOption__icon {
+    object-fit: contain;
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.headerOption:hover {
+    color: black;
+}
+
+
+.headerOption__dropIcon {
+    position: relative;
+    bottom: 3px;
+    right: 3px;
+} 
+
+.headerOption__text {
+    position: relative;
+    left: 2px;
+}
+
+
+

@@ -1,0 +1,138 @@
+
+.login {
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+   /* padding-top: 100px;
+    padding-bottom: 10px; */
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    height: fit-content;
+}
+
+.login__header {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: -75px;
+}
+
+.login__header > h1 {
+    font-size: 34px;
+    font-weight: 500;
+    padding-bottom: 2px;
+}
+
+.login__header > p {
+    color: black;
+}
+
+.login__logo > img {
+    object-fit: contain;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.login > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login > form > input:hover {
+    border: 2px solid #0a66c2;
+}
+
+.login > form > input {
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-bottom: 17.5px;
+    border-radius: 5px;
+
+}
+
+.login > form > button {
+    width: 365px;
+    height: 55px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0a66c2;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    margin-top: 15px;
+}
+
+.login > form > button:hover {
+    background-color: #004182;
+}
+
+
+.login__register {
+    color: #0a66c2;
+    cursor: pointer;
+    font-size: 17.5px;
+    font-weight: 500;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.login__register:hover {
+    background-color: #d5e7f9;
+    text-decoration: underline;
+}
+
+.login__bottom {
+    font-size: 17.5px;
+    text-align: center;
+}
+
+.login__footer {
+    display: flex;
+    padding: 35px;
+    width: fit-content;
+}
+
+.login__footer > p {
+    cursor: pointer;
+    font-size: 13.5px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.login__footer > p:hover {
+    text-decoration: underline;
+}
+
+.login__footer > img {
+    height: 20px;
+}
+
+.login__footerLogo {
+    font-size: 13.5px;
+    color: black;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+}
+
+.login__footerLogo > .MuiSvgIcon-root {
+    font-size: 20px;
+}
+
+.login__footerLogo:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,95 @@
+.feed {
+    /*flex: 0.5; */
+    flex: 0 0 600px;
+    margin: 0 25px;
+}
+
+.feed__inputContainer{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.feed__input {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.feed__avatar {
+    margin-right: 8px;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.feed__input > form {
+    border: 1px solid darkgrey;
+    opacity: 100%;
+    border-radius: 30px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    color: gray;
+    padding-left: 15px;
+    padding-right: 23px;
+    
+}
+
+.feed__input > form:hover {
+    background-color: whitesmoke;
+}
+
+.feed__input > form > input {
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    color: #000000;
+    font-size: 14px;
+}
+
+.feed__input > form > button {
+    display: none;
+}
+
+.feed__inputOptions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feed__input > form > input:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.feed__lineBreak {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feed__lineBreak > p {
+    font-size: 13px;
+    padding-left: 11px;
+    color: gray;
+}
+
+.feed__lineBreak > h5 {
+    font-size: 13px;
+    padding-left: 3px;
+}
+
+.feed__lineBreak > hr {
+    border-top: 1px solid darkgray;
+    width: 80%;
+}
+
+
+.feed__lineBreak:hover {
+    cursor: pointer;
+}
+
